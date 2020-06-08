@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315116453077",
+    "firebase_url": "https://flohmarkt-6307c.firebaseio.com",
+    "project_id": "flohmarkt-6307c",
+    "storage_bucket": "flohmarkt-6307c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315116453077:android:d4967ead2dc9cbbb88765c",
+        "android_client_info": {
+          "package_name": "com.example.flohmarkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315116453077-a0g1k1a4qfgg8p3bt0vpikd8reglrn9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flohmarkt",
+            "certificate_hash": "7e3c944c3b1f5bce36fd08298b114d9268869afe"
+          }
+        },
+        {
+          "client_id": "315116453077-tri6tblj14h34c0fia1tp1tntpvjod0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy6_UwC5mRnD2Hgcv1Gny7p6crO5Pvt0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315116453077-tri6tblj14h34c0fia1tp1tntpvjod0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

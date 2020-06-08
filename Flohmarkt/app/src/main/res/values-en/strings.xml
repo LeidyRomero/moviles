@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flothmark</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_stores">Stores</string>
+    <string name="search_hint">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="all_stores">All</string>
+    <string name="top_products">Top products</string>
+    <string name="top_stores">Top stores</string>
+    <string name="store">Store </string>
+    <string name="product_detail">Product detail</string>
+    <string name="owner">Owner: </string>
+    <string name="categories">Categories: </string>
+    <string name="email">Email: </string>
+    <string name="phone">Contact phone: </string>
+    <string name="see_products">See products</string>
+    <string name="add_product">Add product</string>
+    <string name="see_statistics">See statistics</string>
+    <string name="send">Send</string>
+    <string name="description">Description:</string>
+    <string name="price">Price:</string>
+    <string name="name">Name:</string>
+    <string name="image">Image:</string>
+    <string name="storeNumber">Store number:</string>
+    <string name="rest_zone">The rest zone is </string>
+    <string name="bici_zone">The bicycle parking is </string>
+    <string name="meters"> meters</string>
+    <string name="wifi_connected">Wi-fi Connected</string>
+    <string name="lost_connection">Lost connection</string>
+    <string name="main_image">Main image</string>
+</resources>

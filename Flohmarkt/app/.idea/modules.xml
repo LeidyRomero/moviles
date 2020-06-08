@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt.iml" filepath="$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt~1.iml" filepath="$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt~1.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt~2.iml" filepath="$PROJECT_DIR$/../Desktop-moviles-android-kotlin-Flohmarkt~2.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/../Flohmarkt.iml" filepath="$PROJECT_DIR$/../Flohmarkt.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/Flohmarkt-app.iml" filepath="$PROJECT_DIR$/Flohmarkt-app.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/../android-kotlin-Flohmarkt.iml" filepath="$PROJECT_DIR$/../android-kotlin-Flohmarkt.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/android-kotlin-Flohmarkt-app.iml" filepath="$PROJECT_DIR$/android-kotlin-Flohmarkt-app.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/../moviles-android-kotlin-Flohmarkt.iml" filepath="$PROJECT_DIR$/../moviles-android-kotlin-Flohmarkt.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app.iml" filepath="$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app~1.iml" filepath="$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app~1.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app~2.iml" filepath="$PROJECT_DIR$/moviles-android-kotlin-Flohmarkt-app~2.iml" group="Flohmarkt/app" />
+      <module fileurl="file://$PROJECT_DIR$/../temporal-android-kotlin-Flohmarkt.iml" filepath="$PROJECT_DIR$/../temporal-android-kotlin-Flohmarkt.iml" group="Flohmarkt" />
+      <module fileurl="file://$PROJECT_DIR$/temporal-android-kotlin-Flohmarkt-app.iml" filepath="$PROJECT_DIR$/temporal-android-kotlin-Flohmarkt-app.iml" group="Flohmarkt/app" />
+    </modules>
+  </component>
+</project>

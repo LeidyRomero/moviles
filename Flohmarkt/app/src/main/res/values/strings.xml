@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Flothmark</string>
+    <string name="title_home">Principal</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_stores">Tiendas</string>
+    <string name="search_hint">Buscar</string>
+    <string name="favorites">Favoritas</string>
+    <string name="all_stores">Todas</string>
+    <string name="top_products">Productos populares</string>
+    <string name="top_stores">Tiendas populares</string>
+    <string name="store">Tienda</string>
+    <string name="product_detail">Detalle del producto</string>
+    <string name="owner">Propietario: </string>
+    <string name="categories">Categorias: </string>
+    <string name="email">Correo electrónico: </string>
+    <string name="phone">Número de contacto: </string>
+    <string name="see_products">Ver productos</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="see_statistics">Ver estadísticas</string>
+    <string name="send">Enviar</string>
+    <string name="description">Descripción:</string>
+    <string name="price">Precio:</string>
+    <string name="name">Nombre:</string>
+    <string name="image">Imagen:</string>
+    <string name="storeNumber">Tienda:</string>
+    <string name="rest_zone">La zona de descanso está a </string>
+    <string name="bici_zone">El parqueadero de biciclestas está a </string>
+    <string name="meters"> metros</string>
+    <string name="wifi_connected">Wi-fi Connected</string>
+    <string name="lost_connection">Lost connection</string>
+    <string name="main_image">Imagen principal</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    android:label="">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.flohmarkt.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Home"
+        >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_map"
+            app:destination="@id/navigation_map" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_stores"
+            app:destination="@id/navigation_stores" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_stores2"
+            app:destination="@id/navigation_stores" />
+        <action
+            android:id="@+id/action_navigation_home_to_storeDetail"
+            app:destination="@id/storeDetail" />
+        <action
+            android:id="@+id/action_navigation_home_to_productDetail"
+            app:destination="@id/productDetail" />
+        <action
+            android:id="@+id/action_navigation_home_to_estadisticas"
+            app:destination="@id/estadisticas" />
+        <action
+            android:id="@+id/action_navigation_home_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.flohmarkt.ui.mapa.DashboardFragment"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_navigation_map_to_storeDetail"
+            app:destination="@id/storeDetail" />
+        <action
+            android:id="@+id/action_navigation_map_self"
+            app:destination="@id/navigation_map" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_stores"
+        android:name="com.example.flohmarkt.ui.stores.StoresFragment"
+        android:label="Tiendas"
+        tools:layout="@layout/card_view_stores" />
+    <fragment
+        android:id="@+id/storeDetail"
+        android:name="com.example.flohmarkt.ui.stores.StoreDetail"
+        android:label="Detalle tienda"
+        tools:layout="@layout/store_detail" >
+        <action
+            android:id="@+id/action_storeDetail_to_productFragment"
+            app:destination="@id/productFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.flohmarkt.ui.products.ProductFragment"
+        android:label="Detalle producto"
+        tools:layout="@layout/products_detail" />
+    <fragment
+        android:id="@+id/productDetail"
+        android:name="com.example.flohmarkt.ui.products.ProductDetail"
+        android:label="product_detail"
+        tools:layout="@layout/product_detail" />
+    <fragment
+        android:id="@+id/estadisticas"
+        android:name="com.example.flohmarkt.ui.products.Estadisticas"
+        android:label="estadisticas"
+        tools:layout="@layout/estadisticas" >
+        <action
+            android:id="@+id/action_estadisticas_to_productForm"
+            app:destination="@id/productForm" />
+    </fragment>
+    <fragment
+        android:id="@+id/productForm"
+        android:name="com.example.flohmarkt.ui.products.ProductForm"
+        android:label="product_form"
+        tools:layout="@layout/product_form" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.flohmarkt.ui.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/login" />
+</navigation>

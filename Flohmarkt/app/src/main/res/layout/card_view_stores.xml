@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    tools:context=".ui.stores.StoresFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageStore"
+            android:layout_width="171dp"
+            android:layout_height="108dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/store46"
+            app:srcCompat="@drawable/logo_mercado" />
+
+        <TextView
+            android:id="@+id/tienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageStore"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="-101dp"
+            android:layout_toEndOf="@+id/imageStore"
+            android:layout_toRightOf="@+id/imageStore"
+            android:text="@string/store"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/duenia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tienda"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageStore"
+            android:layout_toRightOf="@+id/imageStore"
+            android:text="Dueña de la tienda"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duenia"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageStore"
+            android:layout_toRightOf="@+id/imageStore"
+            android:text="Tipo de productos"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/num_tienda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageStore"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="-100dp"
+            android:layout_toEndOf="@+id/tienda"
+            android:layout_toRightOf="@+id/tienda"
+            android:text="14"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
